@@ -1,20 +1,21 @@
-## めうちきりんのメトロポリス
+# To live is to create.
 
-カットアップや自然言語処理といった知見を活用し、プログラムによって自動生成された文章を用いて制作された、ショートショート形式のサウンドノベルゲーム。
+## About
 
-使用技術: JavaScript (Vue.js), Rust (tauri)
+I create music and software applications.
 
-HP: [https://myochikirin-hp-403bf.web.app/](https://myochikirin-hp-403bf.web.app/)  
-リポジトリ: [https://github.com/ippee/myochikirin_no_metropolis](https://github.com/ippee/myochikirin_no_metropolis)
+I usually use JS/TS and Rust, but I also use Dart, Java, F# and Haskell.
 
-![myochikirin](assets/myochikirin.jpg)
+![ichi-h's GitHub stats](https://github-readme-stats.vercel.app/api?username=ichi-h&show_icons=true&theme=gruvbox)
 
-## huskey
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ichi-h&layout=compact&theme=gruvbox)
 
-Java製クロスプラットフォーム・CUIパスワードマネージャー（開発中）。
+## Repositories
 
-使用技術: Java
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lyrian-app&repo=lyrian_web&theme=gruvbox)](https://github.com/lyrian-app/lyrian_web)
 
-リポジトリ: [https://github.com/denx-official/huskey](https://github.com/denx-official/huskey)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ichi-h&repo=markov_rs&theme=gruvbox)](https://github.com/ichi-h/markov_rs)
 
-![huskey](assets/huskey.jpg)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ichi-h&repo=weighted_rand&theme=gruvbox)](https://github.com/ichi-h/weighted_rand)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ichi-h&repo=myochikirin_no_metropolis&theme=gruvbox)](https://github.com/ichi-h/myochikirin_no_metropolis)
