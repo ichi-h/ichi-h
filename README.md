@@ -2,15 +2,14 @@
 
 ## About
 
-I create music and software applications.
-
-I usually use JS/TS and Rust, but I also use Dart, Java, F# and Haskell.
+I create music and software applications.  
+I usually use JS/TS, Rust and Dart.
 
 ![ichi-h's GitHub stats](https://github-readme-stats.vercel.app/api?username=ichi-h&show_icons=true&theme=gruvbox)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ichi-h&layout=compact&theme=gruvbox)
 
-## Repositories
+## Recent repositories
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lyrian-app&repo=lyrian_web&theme=gruvbox)](https://github.com/lyrian-app/lyrian_web)
 
@@ -18,4 +17,4 @@ I usually use JS/TS and Rust, but I also use Dart, Java, F# and Haskell.
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ichi-h&repo=weighted_rand&theme=gruvbox)](https://github.com/ichi-h/weighted_rand)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ichi-h&repo=myochikirin_no_metropolis&theme=gruvbox)](https://github.com/ichi-h/myochikirin_no_metropolis)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ichi-h&repo=cutup_jp&theme=gruvbox)](https://github.com/ichi-h/cutup_jp)
