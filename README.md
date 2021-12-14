@@ -2,12 +2,14 @@
 
 ## About
 
-I create music and software applications.  
-I usually use JS/TS, Rust and Dart.
+I create music and software applications.
+
+I usually use JavaScript/TypeScript and Rust. When I do web front-end development, I use React/Next.js.  
+I've recently been learning the functional programming through Haskell and F#.
 
 ![ichi-h's GitHub stats](https://github-readme-stats.vercel.app/api?username=ichi-h&show_icons=true&theme=gruvbox)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ichi-h&layout=compact&theme=gruvbox)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ichi-h&hide=html&layout=compact&theme=gruvbox)
 
 ## Recent repositories
 
