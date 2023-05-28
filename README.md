@@ -1,4 +1,4 @@
-# To live is to create.
+# To live is to think and create.
 
 ```purs
 module Main (main) where
