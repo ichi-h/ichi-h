@@ -44,6 +44,7 @@ jobs:
       - name: Commit and push
         id: commit_and_push
         run: |
+          mv out/README.md README.md
           git add README.md
           if [ -z "$(git status --porcelain)" ]; then
             echo "Working directory clean. Nothing to commit."
