@@ -14,8 +14,8 @@ me =
   Profile
     { "1_name": "ichi-h"
     , "2_location": "Tokyo, Japan"
-    , "3_languages": [ TypeScript, Haskell, Rust, FSharp ]
-    , "4_favorites": [ "Reading", "Thinking", "Creation", "Music", "Coffee", "Tea" ]
+    , "3_languages": [ TypeScript, Haskell, FSharp, Rust, PHP ]
+    , "4_favorites": [ "Thinking", "Creation", "Reading", "Music", "Coffee", "Tea" ]
     , "5_links":
         [ { site: "GitHub"
           , url: "https://github.com/ichi-h"
@@ -24,7 +24,7 @@ me =
           , url: "https://twitter.com/ichi_h3"
           }
         , { site: "Portfolio"
-          , url: "Coming soon..."
+          , url: "https://ichi-h.com"
           }
         ]
     }
@@ -46,8 +46,6 @@ pnpm dev
 ## Main Repositories
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ichi-h&repo=portfolio&theme=gruvbox)](https://github.com/ichi-h/portfolio)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ichi-h&repo=elmish&theme=gruvbox)](https://github.com/ichi-h/elmish)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ichi-h&repo=weighted_rand&theme=gruvbox)](https://github.com/ichi-h/weighted_rand)
 
