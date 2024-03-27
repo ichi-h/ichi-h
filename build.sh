@@ -3,4 +3,4 @@ mainPurs=$(cat ./src/Main.purs)
 
 template=${template//"{{ PROFILE_CODE }}"/$mainPurs}
 
-echo "$template" > ./README.md
+echo "$template" > ./out/README.md
