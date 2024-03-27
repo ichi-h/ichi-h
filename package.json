@@ -7,6 +7,11 @@
     "build": "spago build",
     "test": "spago test"
   },
+  "packageManager": "pnpm@8.15.1",
+  "engines": {
+    "npm": "use pnpm please!",
+    "yarn": "use pnpm please!"
+  },
   "dependencies": {
     "purescript": "^0.15.9",
     "spago": "^0.21.0"
