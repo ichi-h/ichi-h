@@ -49,8 +49,9 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           release_branch=${{ env.RELEASE_BRANCH }}
-          git branch -D $release_branch || true
-          git checkout -b $release_branch
+          git fetch origin $release_branch
+          git branch $release_branch origin/$release_branch
+          git checkout $release_branch
 
       - name: Commit and push
         id: commit_and_push
