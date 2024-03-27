@@ -55,7 +55,6 @@ jobs:
       - name: Commit and push
         id: commit_and_push
         run: |
-          git checkout ${{ env.RELEASE_BRANCH }}
           git add README.md
           if [ -z "$(git status --porcelain)" ]; then
             echo "Working directory clean. Nothing to commit."
