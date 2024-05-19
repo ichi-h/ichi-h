@@ -47,6 +47,8 @@ pnpm dev
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ichi-h&repo=portfolio&theme=gruvbox)](https://github.com/ichi-h/portfolio)
 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ichi-h&repo=elmish&theme=gruvbox)](https://github.com/ichi-h/elmish)
+
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ichi-h&repo=weighted_rand&theme=gruvbox)](https://github.com/ichi-h/weighted_rand)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ichi-h&repo=markov_rs&theme=gruvbox)](https://github.com/ichi-h/markov_rs)
