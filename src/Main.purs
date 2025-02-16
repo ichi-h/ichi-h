@@ -10,9 +10,9 @@ me :: Profile
 me =
   Profile
     { "1_name": "ichi-h"
-    , "2_location": "Tokyo, Japan"
-    , "3_languages": [ TypeScript, Haskell, FSharp, Rust, PHP ]
-    , "4_favorites": [ "Thinking", "Creation", "Reading", "Music", "Coffee", "Tea" ]
+    , "2_location": "Hyogo, Japan"
+    , "3_languages": [ TypeScript, Golang, PureScript, Elm, FSharp ]
+    , "4_favorites": [ "Thinking", "Creation", "Singing", "Music", "Reading" ]
     , "5_links":
         [ { site: "GitHub"
           , url: "https://github.com/ichi-h"

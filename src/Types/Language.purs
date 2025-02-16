@@ -8,6 +8,7 @@ data Language
   = Haskell
   | PureScript
   | Elm
+  | Golang
   | TypeScript
   | JavaScript
   | Rust
