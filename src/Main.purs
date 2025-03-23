@@ -21,7 +21,7 @@ me =
           , url: "https://github.com/ichi-h"
           }
         , { site: "X"
-          , url: "https://twitter.com/ichi_h3"
+          , url: "https://x.com/ichi_h3"
           }
         , { site: "Portfolio"
           , url: "https://ichi-h.com"
