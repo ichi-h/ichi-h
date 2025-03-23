@@ -11,7 +11,10 @@ me =
   Profile
     { "1_name": "ichi-h"
     , "2_location": "Hyogo, Japan"
-    , "3_languages": [ TypeScript, Golang, PureScript, Elm, FSharp ]
+    , "3_languages":
+        { loved: [ PureScript, Haskell, FSharp, Rust, Elm ]
+        , skilled: [ TypeScript, Golang, PHP ]
+        }
     , "4_favorites": [ "Thinking", "Creation", "Singing", "Music", "Reading" ]
     , "5_links":
         [ { site: "GitHub"

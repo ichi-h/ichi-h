@@ -5,11 +5,13 @@ import Data.Generic.Rep (class Generic)
 import Data.Show.Generic (genericShow)
 import Types.Language (Language)
 
-newtype Profile
-  = Profile
+newtype Profile = Profile
   { "1_name" :: String
   , "2_location" :: String
-  , "3_languages" :: Array Language
+  , "3_languages" ::
+      { loved :: Array Language
+      , skilled :: Array Language
+      }
   , "4_favorites" :: Array String
   , "5_links" ::
       Array
