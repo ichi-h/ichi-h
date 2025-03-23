@@ -1,0 +1,12 @@
+{
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "purescript.formatter": "purs-tidy",
+  "purescript.addNpmPath": true,
+  "[purescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "nwolverson.ide-purescript"
+  },
+  "purescript.pscIdePort": 15587,
+}
