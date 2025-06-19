@@ -12,7 +12,7 @@ me =
     { "1_name": "ichi-h"
     , "2_location": "Hyogo, Japan"
     , "3_languages":
-        { loved: [ PureScript, Haskell, FSharp, Rust, Elm ]
+        { loved: [ PureScript, Haskell, FSharp, Elm ]
         , skilled: [ TypeScript, Golang, PHP ]
         }
     , "4_links":
