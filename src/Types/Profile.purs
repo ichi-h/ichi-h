@@ -12,8 +12,7 @@ newtype Profile = Profile
       { loved :: Array Language
       , skilled :: Array Language
       }
-  , "4_favorites" :: Array String
-  , "5_links" ::
+  , "4_links" ::
       Array
         { site :: String
         , url :: String

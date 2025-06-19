@@ -15,8 +15,7 @@ me =
         { loved: [ PureScript, Haskell, FSharp, Rust, Elm ]
         , skilled: [ TypeScript, Golang, PHP ]
         }
-    , "4_favorites": [ "Thinking", "Creation", "Singing", "Music", "Reading" ]
-    , "5_links":
+    , "4_links":
         [ { site: "GitHub"
           , url: "https://github.com/ichi-h"
           }

@@ -1,4 +1,4 @@
-# To live is to think, create and sing.
+# ichi-h
 
 ```purs
 {{ PROFILE_CODE }}
