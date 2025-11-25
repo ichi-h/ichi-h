@@ -6,15 +6,15 @@ import Data.Show.Generic (genericShow)
 import Types.Language (Language)
 
 newtype Profile = Profile
-  { "1_name" :: String
-  , "2_location" :: String
-  , "3_doing" :: Array String
-  , "4_languages" ::
+  { name :: String
+  , location :: String
+  , doing :: Array String
+  , languages ::
       { love :: Array Language
-      , skilled :: Array Language
-      , used :: Array Language
+      , skilledIn :: Array Language
+      , familiar :: Array Language
       }
-  , "5_links" ::
+  , links ::
       Array
         { site :: String
         , url :: String
