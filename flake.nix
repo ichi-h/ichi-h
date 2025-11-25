@@ -25,7 +25,6 @@
               spago-unstable
               purs-tidy-bin.purs-tidy-0_10_0
               purs-backend-es
-              nodejs_24
               esbuild
               watchexec
             ]; 
