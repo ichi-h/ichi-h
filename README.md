@@ -14,15 +14,14 @@ me =
   Profile
     { "1_name": "ichi-h"
     , "2_location": "Hyogo, Japan"
-    , "3_languages":
-        { loved: [ PureScript, Haskell, FSharp, Elm ]
-        , skilled: [ TypeScript, Golang, PHP ]
+    , "3_doing": [ "Domain Modeling", "System Design", "Development", "Functional Programming" ]
+    , "4_languages":
+        { love: [ PureScript, Elm ]
+        , skilled: [ TypeScript, Golang, PHP, Python ]
+        , used: [ Rust, Haskell, FSharp ]
         }
-    , "4_links":
-        [ { site: "GitHub"
-          , url: "https://github.com/ichi-h"
-          }
-        , { site: "X"
+    , "5_links":
+        [ { site: "X"
           , url: "https://x.com/ichi_h3"
           }
         , { site: "Portfolio"
@@ -41,6 +40,16 @@ main = do
 ```sh
 git clone -b develop https://github.com/ichi-h/ichi-h.git
 cd ichi-h
-pnpm install
-pnpm dev
+
+nix develop
+spago install
+
+# Develop
+./scripts/dev.sh
+
+# Build
+./scripts/build.sh
+
+# Format
+./scripts/format.sh
 ```
