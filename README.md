@@ -12,15 +12,15 @@ import Types.Profile (Profile(..))
 me :: Profile
 me =
   Profile
-    { "1_name": "ichi-h"
-    , "2_location": "Hyogo, Japan"
-    , "3_doing": [ "Domain Modeling", "System Design", "Development", "Functional Programming" ]
-    , "4_languages":
+    { name: "ichi-h"
+    , location: "Hyogo, Japan"
+    , doing: [ "Development", "Domain Modeling", "System Design", "Functional Programming" ]
+    , languages:
         { love: [ PureScript, Elm ]
-        , skilled: [ TypeScript, Golang, PHP, Python ]
-        , used: [ Rust, Haskell, FSharp ]
+        , skilledIn: [ TypeScript, Golang, PHP, Python ]
+        , familiar: [ Rust, Haskell, FSharp ]
         }
-    , "5_links":
+    , links:
         [ { site: "X"
           , url: "https://x.com/ichi_h3"
           }
