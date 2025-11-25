@@ -13,9 +13,12 @@ cd ichi-h
 nix develop
 spago install
 
-# build
-spago build
-
 # Develop
-watchexec -e purs,js,yaml -- spago run
+./scripts/dev.sh
+
+# Build
+./scripts/build.sh
+
+# Format
+./scripts/format.sh
 ```
