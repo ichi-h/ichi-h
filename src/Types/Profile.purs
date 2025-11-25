@@ -8,11 +8,13 @@ import Types.Language (Language)
 newtype Profile = Profile
   { "1_name" :: String
   , "2_location" :: String
-  , "3_languages" ::
-      { loved :: Array Language
+  , "3_doing" :: Array String
+  , "4_languages" ::
+      { love :: Array Language
       , skilled :: Array Language
+      , used :: Array Language
       }
-  , "4_links" ::
+  , "5_links" ::
       Array
         { site :: String
         , url :: String
