@@ -1,7 +1,15 @@
 # ichi-h
 
+## Profile
+
 ```purs
 {{ PROFILE_CODE }}
+```
+
+## Policy
+
+```koka
+{{ POLICY_CODE }}
 ```
 
 ## Setup
@@ -11,14 +19,14 @@ git clone -b develop https://github.com/ichi-h/ichi-h.git
 cd ichi-h
 
 nix develop
-spago install
+pnpm i
 
 # Develop
-./scripts/dev.sh
+pnpm dev
 
 # Build
-./scripts/build.sh
+pnpm build
 
 # Format
-./scripts/format.sh
+pnpm format
 ```
