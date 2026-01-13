@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     purescript-overlay = {
       url = "github:thomashoneyman/purescript-overlay";
@@ -21,12 +21,15 @@
         {
           devShells.default = pkgs.mkShellNoCC {
             buildInputs = with pkgs; [
+              nodejs_24
               purs
               spago-unstable
               purs-tidy-bin.purs-tidy-0_10_0
               purs-backend-es
               esbuild
               watchexec
+
+              koka
             ]; 
           };
         }
