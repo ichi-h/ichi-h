@@ -1,8 +1,8 @@
 # ichi-h
 
-![policy](/assets/policy.webp?t=1768292613)
+![motto](/assets/motto.webp)
 
-## Profile
+## Profile in PureScript
 
 ```purs
 module Main (main) where
@@ -50,7 +50,7 @@ main = do
   logShow me
 ```
 
-## Policy
+## Development Motto in Koka
 
 ```koka
 // Effect for spreading happiness to users.
