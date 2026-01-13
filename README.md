@@ -1,6 +1,6 @@
 # ichi-h
 
-![policy](/assets/policy.webp)
+![policy](/assets/policy.webp?t=1768292613)
 
 ## Profile
 
