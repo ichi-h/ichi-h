@@ -29,11 +29,15 @@ fun resolve(issue, solution): happiness outcome
 fun main()
   val issue = Issue("a pretty complex domain issue", "someone")
 
-  println(issue.actor ++ " is struggling with " ++ issue.description ++ ".\n")
-  println("working on it...")
+  println(issue.actor ++ " is struggling 😵‍💫 with " ++ issue.description ++ ".\n")
+  println("🔧 working on it... 🔧\n")
 
   val outcome = withHappiness fn()
     resolve(issue, "building neat frameworks and systems")
 
-  println("\n✨ just solved it - " ++ outcome.solution ++ " did the trick! ✨")
+  println("")
+  println("╔═══════════════════════════╗")
+  println("║   ✨ JUST SOLVED IT! ✨   ║")
+  println("╚═══════════════════════════╝")
+  println(outcome.solution ++ " did the trick!")
   println("let's spread the ☺️ through elegant architecture!")
