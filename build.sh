@@ -3,4 +3,5 @@ cat ./README.template.md \
   | sed "/{{ PROFILE_CODE }}/d" \
   | sed "/{{ POLICY_CODE }}/r ./koka/src/main.kk" \
   | sed "/{{ POLICY_CODE }}/d" \
+  | sed "s/{{ TIMESTAMP }}/$(date +%s)/g" \
   > ./out/README.md

@@ -1,6 +1,6 @@
 # ichi-h
 
-![policy](/assets/policy.webp)
+![policy](/assets/policy.webp?t={{ TIMESTAMP }})
 
 ## Profile
 
