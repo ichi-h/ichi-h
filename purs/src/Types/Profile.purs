@@ -14,6 +14,8 @@ newtype Profile = Profile
       , skilledIn :: Array Language
       , familiar :: Array Language
       }
+  , quotes :: Array String
+  , hobbies :: Array String
   , links ::
       Array
         { site :: String
