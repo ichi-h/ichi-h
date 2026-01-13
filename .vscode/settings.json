@@ -9,4 +9,6 @@
     "editor.defaultFormatter": "nwolverson.ide-purescript"
   },
   "purescript.pscIdePort": 15587,
+  "koka.languageServer.workingDirectory": "./koka",
+  "koka.languageServer.compiler": "/nix/store/wpsddavj41x227zwfzbnlyfcb4gysyf4-koka-3.2.2/bin"
 }

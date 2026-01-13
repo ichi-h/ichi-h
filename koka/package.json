@@ -1,0 +1,7 @@
+{
+  "name": "koka",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "watchexec -e kk -- koka -e src/main.kk"
+  }
+}
