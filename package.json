@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "packageManager": "pnpm@10.24.0",
   "scripts": {
+    "build": "./build.sh",
     "dev": "turbo dev",
     "format": "turbo format"
   },
