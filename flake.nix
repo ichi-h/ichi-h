@@ -22,12 +22,14 @@
           devShells.default = pkgs.mkShellNoCC {
             buildInputs = with pkgs; [
               nodejs_24
+              nodePackages.pnpm
+              watchexec
+
               purs
               spago-unstable
               purs-tidy-bin.purs-tidy-0_10_0
               purs-backend-es
               esbuild
-              watchexec
 
               koka
             ]; 

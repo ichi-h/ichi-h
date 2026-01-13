@@ -1,0 +1,12 @@
+{
+  "name": "purs",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.24.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "format": "turbo format"
+  },
+  "devDependencies": {
+    "turbo": "^2.7.4"
+  }
+}

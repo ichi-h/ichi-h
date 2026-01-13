@@ -1,0 +1,8 @@
+{
+  "name": "purs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "watchexec -e purs,js,yaml -- spago run",
+    "format": "purs-tidy format-in-place 'src/**/*.purs'"
+  }
+}
