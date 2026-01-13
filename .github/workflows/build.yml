@@ -30,7 +30,7 @@ jobs:
           path: ./
 
       - name: Build README.md
-        run: ./scripts/build.sh
+        run: ./build.sh
 
       - name: Git setup
         run: |
