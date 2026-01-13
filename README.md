@@ -1,5 +1,7 @@
 # ichi-h
 
+## Profile
+
 ```purs
 module Main (main) where
 
@@ -14,15 +16,26 @@ me =
   Profile
     { name: "ichi-h"
     , location: "Hyogo, Japan"
-    , doing: [ "Development", "Domain Modeling", "System Design", "Functional Programming" ]
+    , doing:
+        [ "Development"
+        , "Domain Modeling"
+        , "System Design"
+        ]
     , languages:
-        { love: [ PureScript, Elm ]
-        , skilledIn: [ TypeScript, Golang, PHP, Python ]
+        { skilledIn: [ TypeScript, Golang, PHP, Python ]
+        , love: [ PureScript, Koka, Elm, Nix ]
         , familiar: [ Rust, Haskell, FSharp ]
         }
+    , quotes:
+        [ "子曰: 知之者不如好之者，好之者不如乐之者。"
+        ]
+    , hobbies: [ "Cooking", "Philosophy", "Creation" ]
     , links:
         [ { site: "X"
           , url: "https://x.com/ichi_h3"
+          }
+        , { site: "Zenn"
+          , url: "https://zenn.dev/ichi_h"
           }
         , { site: "Portfolio"
           , url: "https://ichi-h.com"
@@ -35,6 +48,50 @@ main = do
   logShow me
 ```
 
+## Policy
+
+```koka
+// Effect for spreading happiness to users.
+effect happiness
+  fun makeHappy(user: string) : unit
+
+// Handler that implements the happiness effect.
+fun withHappiness(action: () -> <happiness, console|e> a): <console|e> a
+  with handler
+    fun makeHappy(user) { println(user ++ ": ☺️") }
+  action()
+
+struct issue
+  description: string
+  actor: string
+
+struct outcome
+  beneficiary: string 
+  solution: string
+
+// Resolves an issue by applying a solution.
+// Makes everyone happy as a side effect.
+fun resolve(issue, solution): happiness outcome
+  val users = ["end user", "stakeholder", "engineer", "entire team", "you"]
+
+  users.foreach fn(person) { makeHappy(person) }
+
+  Outcome(issue.actor, solution)
+
+// Models an software development process where solving problems makes everyone happy.
+fun main()
+  val issue = Issue("a pretty complex domain issue", "someone")
+
+  println(issue.actor ++ " is struggling with " ++ issue.description ++ ".\n")
+  println("working on it...")
+
+  val outcome = withHappiness fn()
+    resolve(issue, "building neat frameworks and systems")
+
+  println("\n✨ just solved it - " ++ outcome.solution ++ " did the trick! ✨")
+  println("let's spread the ☺️ through elegant architecture!")
+```
+
 ## Setup
 
 ```sh
@@ -42,14 +99,14 @@ git clone -b develop https://github.com/ichi-h/ichi-h.git
 cd ichi-h
 
 nix develop
-spago install
+pnpm i
 
 # Develop
-./scripts/dev.sh
+pnpm dev
 
 # Build
-./scripts/build.sh
+pnpm build
 
 # Format
-./scripts/format.sh
+pnpm format
 ```
