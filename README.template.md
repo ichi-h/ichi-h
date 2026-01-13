@@ -1,5 +1,7 @@
 # ichi-h
 
+![policy](/assets/policy.webp)
+
 ## Profile
 
 ```purs
