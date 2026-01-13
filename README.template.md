@@ -1,17 +1,17 @@
 # ichi-h
 
-![policy](/assets/policy.webp)
+![motto](/assets/motto.webp)
 
-## Profile
+## Profile in PureScript
 
 ```purs
 {{ PROFILE_CODE }}
 ```
 
-## Policy
+## Development Motto in Koka
 
 ```koka
-{{ POLICY_CODE }}
+{{ MOTTO_CODE }}
 ```
 
 ## Setup
