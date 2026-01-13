@@ -39,13 +39,6 @@ jobs:
         run: ./build.sh
         working-directory: ./develop
 
-      # - name: Git setup
-      #   run: |
-          # release_branch=${{ env.RELEASE_BRANCH }}
-          # git fetch origin $release_branch
-          # git branch $release_branch origin/$release_branch
-          # git checkout $release_branch
-
       - name: Copy README.md to main branch
         run: |
           cp ./develop/out/README.md ./main
