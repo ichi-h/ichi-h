@@ -1,6 +1,24 @@
 # ichi-h
 
-![motto](/assets/motto.webp)
+```txt
+$ koka -e src/main.kk
+
+Someone is struggling 😵‍💫 with a pretty complex domain issue.
+
+🔧 Working on it... 🔧
+
+End user: ☺️
+Stakeholder: ☺️
+Engineer: ☺️
+Entire team: ☺️
+You: ☺️
+
+=============================
+    🎉 JUST SOLVED IT! 🎉
+=============================
+Building neat frameworks and systems did the trick!
+Let's spread the ☺️ through elegant design!
+```
 
 ## Profile in PureScript
 
@@ -40,7 +58,7 @@ me =
           , url: "https://zenn.dev/ichi_h"
           }
         , { site: "Portfolio"
-          , url: "https://ichi-h.com"
+          , url: "https://tech.ichi-h.com"
           }
         ]
     }
@@ -94,7 +112,7 @@ fun main()
   println("    🎉 JUST SOLVED IT! 🎉")
   println("=============================")
   println(outcome.solution ++ " did the trick!")
-  println("Let's spread the ☺️ through elegant architecture!")
+  println("Let's spread the ☺️ through elegant design!")
 ```
 
 ## Setup
