@@ -33,7 +33,7 @@ me =
           , url: "https://zenn.dev/ichi_h"
           }
         , { site: "Portfolio"
-          , url: "https://ichi-h.com"
+          , url: "https://tech.ichi-h.com"
           }
         ]
     }
