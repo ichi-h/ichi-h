@@ -15,6 +15,7 @@ me =
         [ "Development"
         , "Domain Modeling"
         , "System Design"
+        , "Product Management"
         ]
     , languages:
         { skilledIn: [ TypeScript, Golang, PHP, Python ]

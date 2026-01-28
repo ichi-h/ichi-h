@@ -34,6 +34,8 @@ Let's spread the ☺️ through elegant design!
 
 ## Setup
 
+The development environment is on the [develop](https://github.com/ichi-h/ichi-h/tree/develop) branch.
+
 ```sh
 git clone -b develop https://github.com/ichi-h/ichi-h.git
 cd ichi-h
