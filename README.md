@@ -40,6 +40,7 @@ me =
         [ "Development"
         , "Domain Modeling"
         , "System Design"
+        , "Product Management"
         ]
     , languages:
         { skilledIn: [ TypeScript, Golang, PHP, Python ]
@@ -116,6 +117,8 @@ fun main()
 ```
 
 ## Setup
+
+The development environment is on the [develop](https://github.com/ichi-h/ichi-h/tree/develop) branch.
 
 ```sh
 git clone -b develop https://github.com/ichi-h/ichi-h.git
